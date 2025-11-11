@@ -1,0 +1,35 @@
+# Relevant Files for Claude Agent SDK Migration
+
+## Core Agent Configuration Files
+- .claude/settings.json (offset: 0, limit: 100)
+- .claude/settings.local.json (offset: 0, limit: 100)
+
+## Python Files Using append_system_prompt
+- apps/custom_7_micro_sdlc_agent/backend/modules/agent_orchestrator.py (offset: 0, limit: 700)
+
+## Project Configuration Files (pyproject.toml)
+- apps/custom_1_pong_agent/pyproject.toml (offset: 0, limit: 50)
+- apps/custom_2_echo_agent/pyproject.toml (offset: 0, limit: 50)
+- apps/custom_3_calc_agent/pyproject.toml (offset: 0, limit: 50)
+- apps/custom_4_social_hype_agent/pyproject.toml (offset: 0, limit: 50)
+- apps/custom_5_qa_agent/pyproject.toml (offset: 0, limit: 50)
+- apps/custom_6_tri_copy_writer/backend/pyproject.toml (offset: 0, limit: 50)
+- apps/custom_7_micro_sdlc_agent/backend/pyproject.toml (offset: 0, limit: 50)
+- apps/custom_8_ultra_stream_agent/pyproject.toml (offset: 0, limit: 50)
+
+## System Prompt Files
+- apps/custom_1_pong_agent/prompts/PONG_AGENT_SYSTEM_PROMPT.md (offset: 0, limit: 50)
+- apps/custom_2_echo_agent/prompts/ECHO_AGENT_SYSTEM_PROMPT.md (offset: 0, limit: 50)
+- apps/custom_3_calc_agent/prompts/CALC_AGENT_SYSTEM_PROMPT.md (offset: 0, limit: 100)
+- apps/custom_4_social_hype_agent/prompts/SOCIAL_HYPE_AGENT_SYSTEM_PROMPT.md (offset: 0, limit: 150)
+- apps/custom_5_qa_agent/prompts/QA_AGENT_SYSTEM_PROMPT.md (offset: 0, limit: 200)
+- apps/custom_6_tri_copy_writer/prompts/TRI_COPY_WRITER_SYSTEM_PROMPT.md (offset: 0, limit: 150)
+- apps/custom_7_micro_sdlc_agent/backend/system_prompts/PLANNER_AGENT_SYSTEM_PROMPT.md (offset: 0, limit: 100)
+- apps/custom_7_micro_sdlc_agent/backend/system_prompts/REVIEWER_AGENT_SYSTEM_PROMPT.md (offset: 0, limit: 100)
+- apps/custom_8_ultra_stream_agent/system_prompts/STREAM_AGENT_SYSTEM_PROMPT.md (offset: 0, limit: 200)
+
+## README Files
+
+- apps/custom_3_calc_agent/README.md (offset: 140, limit: 20)
+- apps/custom_4_social_hype_agent/README.md (offset: 70, limit: 20)
+- apps/custom_5_qa_agent/README.md (offset: 90, limit: 20)
